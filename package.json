@@ -1,0 +1,27 @@
+{
+  "name": "@maurosala/run-args",
+  "version": "1.0.0",
+  "description": "Run external file with ENV args",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurosala/run-args.git"
+  },
+  "keywords": [
+    "run",
+    "args",
+    "ext",
+    "external",
+    "env",
+    "child_process"
+  ],
+  "author": "Mauro Sala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maurosala/run-args/issues"
+  },
+  "homepage": "https://github.com/maurosala/run-args#readme"
+}
