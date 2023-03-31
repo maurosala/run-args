@@ -12,7 +12,10 @@ run(join(__dirname, 'brand-service.js'), { PORT: BRAND_SERVICE_PORT })
 const app = express()
 
 app.get('/', async (req, res) => {
-  const brand = await got(brandSrv + '/231').json()
+  const brand = await got(brandSrv + '/1', {
+    timeout: { request: 1250 },
+    retry: { limit: 0 }
+  }).json()
   res.status(200).json(brand)
 })
 
